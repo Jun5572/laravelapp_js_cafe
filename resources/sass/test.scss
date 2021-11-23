@@ -1,0 +1,9 @@
+$test: crimson;
+
+.test {
+    background-color: $test;
+    & h1 {
+        font-size: 3rem;
+        color: turquoise;
+    }
+}

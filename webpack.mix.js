@@ -1,5 +1,6 @@
 const mix = require('laravel-mix');
 const glob = require('glob');
+const { groupBy } = require('lodash');
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -11,15 +12,26 @@ const glob = require('glob');
  |
  */
 
-// mix.js('resources/js/app.js', 'public/js')
-//     .postCss('resources/css/app.css', 'public/css', [
+// mix.postCss('resources/css/slick/slick-theme.css', 'public/css/slick', [
 //         //
 //     ]);
+// mix.postCss('resources/css/slick/slick.css', 'public/css/slick', [
+//         //
+//     ]);
+glob.sync('resources/css/*.css', 'public/css').map(function(file) {
+    mix.postCss(file, 'public/css').options({
+        processCssUrls: false,
+    });
+});
 glob.sync('resources/js/*.js', 'public/js').map(function(file) {
-    mix.js(file, 'public/js');
+    mix.js(file, "public/js").autoload({
+        "jquery": ['$', 'window.jQuery'],
+    });
 });
 glob.sync('resources/sass/*.scss').map(function(file) {
     mix.sass(file, "public/css").options({
         processCssUrls: false,
     });
 });
+
+    

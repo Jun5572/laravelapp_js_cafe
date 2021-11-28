@@ -1,0 +1,100 @@
+.contact-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-form-wrapper h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+.contact-form-wrapper .contact-form-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  color: #848484;
+  margin-bottom: 60px;
+}
+.contact-form-wrapper .contact-form-table tr {
+  border-bottom: 1px solid #efefef;
+}
+.contact-form-wrapper .contact-form-table th {
+  position: relative;
+  display: table-cell;
+  width: 290px;
+  padding: 15px;
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 400;
+}
+.contact-form-wrapper .contact-form-table th span {
+  position: absolute;
+  top: calc(50% - 1em);
+  right: 0;
+  width: 4em;
+  height: 2em;
+  font-size: 0.8em;
+  text-align: center;
+  display: inline-block;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.contact-form-wrapper .contact-form-table th span.required-icon {
+  background-color: black;
+  color: #ffffff;
+}
+.contact-form-wrapper .contact-form-table th span.optional-icon {
+  background-color: #bfcad2;
+  color: black;
+}
+.contact-form-wrapper .contact-form-table td {
+  display: table-cell;
+  padding: 15px;
+  vertical-align: middle;
+}
+.contact-form-wrapper .contact-form-table td input[type=text], .contact-form-wrapper .contact-form-table td input[type=email], .contact-form-wrapper .contact-form-table td input[type=tel] {
+  outline: none;
+  border: none;
+  width: 500px;
+  padding: 1em;
+  background-color: #f1f1f1;
+}
+.contact-form-wrapper .contact-form-table td input[name=your-zip] {
+  width: 100px;
+}
+.contact-form-wrapper .contact-form-table td textarea {
+  outline: none;
+  border: none;
+  background-color: #f1f1f1;
+  resize: none;
+  max-width: 600px;
+  max-height: 500px;
+  min-width: 100px;
+  min-height: 100px;
+  width: 500px;
+  padding: 1em;
+}
+.contact-form-wrapper .contact-form-table .td-zip {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.contact-form-wrapper .contact-form-table .contact-head, .contact-form-wrapper .contact-form-table .zip-head {
+  vertical-align: top;
+  top: 0;
+}
+.contact-form-wrapper .contact-form-table .contact-head span, .contact-form-wrapper .contact-form-table .zip-head span {
+  top: 15px;
+}
+.contact-form-wrapper .contact-form-table select {
+  outline: none;
+  border: none;
+  padding: 15px;
+  background-color: #efefef;
+}
+.contact-form-wrapper .btn-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto 100px;
+}
+.contact-form-wrapper .btn-wrapper button {
+  display: block;
+}

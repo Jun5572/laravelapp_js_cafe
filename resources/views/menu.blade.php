@@ -7,13 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../../public/assets/slick/slick.css">
-    <link rel="stylesheet" href="../../../public/assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="{{ asset('slick/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('slick/slick-theme.css') }}">
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('css/common.css') }}">
     <link rel="stylesheet" href="{{ asset('css/menu.css') }}">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="../../js/slick.min.js"></script>
+    <script src="{{ asset('js/slick.min.js') }}"></script>
     <script src="https://kit.fontawesome.com/d9203d9956.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <title>J's Cafe</title>
@@ -44,25 +43,20 @@
         <h2>Seasonal</h2>
         <div class="menu-inner-wrapper">
             <div class="slider-wrapper">
-                <img class="slider-item" src="../../../public/assets/images/menu-2.jpg" alt="">
-                <img class="slider-item" src="../../../public/assets/images/shard-g794920a6f_1920.jpg" alt="">
-                <img class="slider-item" src="../../../public/assets/images/new_menu_cake.jpg" alt="">
-                <div class="slider-item"></div>
-                <div class="slider-item"></div>
-                <div class="slider-item"></div>
+                <img class="slider-item" src="{{ asset('images/menu-2.jpg') }}" alt="">
+                <img class="slider-item" src="{{ asset('images/shard-g794920a6f_1920.jpg') }}" alt="">
+                <img class="slider-item" src="{{ asset('images/new_menu_cake.jpg') }}" alt="">
                 <div class="slider-item"></div>
                 <div class="slider-item"></div>
             </div>
             <h2 class="page-title">Menu</h2>
             <div id="menu-item" class="menu-list">
                 <div class="menu-item">
-                    <!-- <div class="menu-img new-icon">img</div> -->
-                    <img class="menu-img new-icon" src="../../../public/assets/images/menu-1.jpg" alt="">
+                    <img class="menu-img new-icon" src="{{ asset('images/menu-1.jpg') }}" alt="">
                     <p>アマトリチャーナ</p>
                 </div>
                 <div class="menu-item">
-                    <!-- <div class="menu-img">img2</div> -->
-                    <img class="menu-img new-icon" src="../../../public/assets/images/menu-2.jpg" alt="">
+                    <img class="menu-img new-icon" src="{{ asset('images/menu-2.jpg') }}" alt="">
                     <p>いろどり野菜のサラダ</p>
                 </div>
                 <div class="menu-item">
@@ -111,13 +105,13 @@
     </section>
     <footer>
         <ul class="footer-menu">
-            <li><a href="../contact/contact.html">CONTACT</a></li>
-            <li><a href="../recruit/recruit.html">RECRUIT</a></li>
-            <li><a href="../privacy_policy/privacy_policy.html">PRIVACY POLICY</a></li>
+            <li><a href="{{ url('/contact') }}">CONTACT</a></li>
+            <li><a href="{{ url('/recruit') }}">RECRUIT</a></li>
+            <li><a href="{{ url('/plivacy_policy') }}">PRIVACY POLICY</a></li>
         </ul>
         <p><i class="far fa-copyright"></i>2021 Jun Takizawa</p>
     </footer>
-    <script src="../../js/slider.js"></script>
-    <script src="../../js/menu.js"></script>
+    <script src="{{ asset('js/slider.js') }}"></script>
+    <script src="{{ asset('js/menu.js') }}"></script>
 </body>
 </html>

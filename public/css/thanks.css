@@ -1,0 +1,45 @@
+.main-contents {
+  margin: auto;
+  height: 100vh;
+}
+.main-contents .inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.main-contents .inner-wrapper h2 {
+  font-size: 3rem;
+}
+.main-contents .inner-wrapper .text-wrapper {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.main-contents .inner-wrapper .to-top-link {
+  margin-bottom: 60px;
+}
+.main-contents .inner-wrapper .to-top-link::before {
+  content: "\f060";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+.main-contents .inner-wrapper .sns-wrapper {
+  margin-bottom: 50px;
+}
+.main-contents .inner-wrapper .sns-wrapper a {
+  display: inline-block;
+  min-width: 50px;
+  padding: 1rem;
+  margin: 0 15px;
+}
+.main-contents .inner-wrapper .sns-wrapper a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-contents .inner-wrapper .sns-wrapper a i span {
+  font-size: 1rem;
+  padding: 0 1em;
+}

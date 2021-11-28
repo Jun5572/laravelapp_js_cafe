@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('css/common.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/top.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/thanks.css') }}">
     <script src="https://kit.fontawesome.com/d9203d9956.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <title>J's Cafe</title>
@@ -19,33 +19,32 @@
         <a href="../top/top.html" class="logo">logo</a>
         <nav>
             <ul>
-                <li><a href="{{ url('/news') }}">NEWS</a></li>
-                <li><a href="{{ url('/menu') }}">MENU</a></li>
-                <li><a href="{{ url('/concept') }}">CONCEPT</a></li>
+                <li><a href="../news/news.html">NEWS</a></li>
+                <li><a href="../menu/menu.html">MENU</a></li>
+                <li><a href="../concept/concept.html">CONCEPT</a></li>
             </ul>
         </nav>
     </header>
-    <section class="hero">
-        <div class="hero-img">
-            <!-- TODO jsでスライドインを実装 -->
+    <section class="main-contents w-container">
+        <div class="inner-wrapper">
+            <h2>Thank You!</h2>
+            <div class="text-wrapper">
+                <p>お問い合わせありがとうございました。</p>
+                <p>ご入力頂いた内容を確認後、３営業日以内に返信いたします。</p>
+            </div>
             <div class="sns-wrapper">
                 <a href="#">
-                    <i class="fab fa-twitter-square fa-3x"></i>
+                    <i class="fab fa-twitter fa-2x"><span>Twitter</span></i>
                 </a>
                 <a href="#">
-                    <i class="fab fa-instagram fa-3x"></i>
+                    <i class="fab fa-instagram fa-2x"><span>Instagram</span></i>
                 </a>
                 <a href="#">
-                    <i class="fab fa-line fa-3x"></i>
+                    <i class="fab fa-line fa-2x"><span>LINE</span></i>
                 </a>
             </div>
-        </div>
-        <div class="hero-container w-container">
-            <div class="hero-title">
-                <h1>J's Cafe</h1>
-            </div>
+            <a class="to-top-link" href="{{ url('/') }}">TOPページに戻る</a>
         </div>
     </section>
-    <script src="{{ asset('js/common.js') }}"></script>
 </body>
 </html>

@@ -136,7 +136,7 @@ table tr th {
   margin: auto;
   width: 90%;
   height: 80%;
-  background-image: url(/images/shard-g794920a6f_1920.jpg?eae43176ff62a24774135e661969eb99);
+  background-image: url("/images/shard-g794920a6f_1920.jpg");
   background-size: cover;
   background-position: center;
   overflow: hidden;

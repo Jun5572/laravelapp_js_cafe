@@ -5,7 +5,17 @@
     "/js/menu.js": "/js/menu.js",
     "/js/slick.min.js": "/js/slick.min.js",
     "/js/slider.js": "/js/slider.js",
+    "/css/menu.css": "/css/menu.css",
+    "/css/contact.css": "/css/contact.css",
+    "/css/confirm.css": "/css/confirm.css",
+    "/css/concept.css": "/css/concept.css",
+    "/css/common.css": "/css/common.css",
+    "/css/app.css": "/css/app.css",
     "/css/top.css": "/css/top.css",
+    "/css/thanks.css": "/css/thanks.css",
     "/css/test.css": "/css/test.css",
-    "/css/common.css": "/css/common.css"
+    "/css/recruit.css": "/css/recruit.css",
+    "/css/privacy_policy.css": "/css/privacy_policy.css",
+    "/css/news.css": "/css/news.css",
+    "/css/news_detail.css": "/css/news_detail.css"
 }

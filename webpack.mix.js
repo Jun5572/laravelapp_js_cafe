@@ -34,4 +34,4 @@ glob.sync('resources/sass/*.scss').map(function(file) {
     });
 });
 
-    
+// mix.sass("resources/sass/app.scss", "public/css"); //この行を追加

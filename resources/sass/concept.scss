@@ -1,5 +1,7 @@
-section:last-of-type {
-    margin-bottom: 50vh;
+main {
+    & section:last-child {
+        margin-bottom: 50vh;
+    }
 }
 
 .title {

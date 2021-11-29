@@ -1,7 +1,7 @@
 let modal_wrapper = document.querySelector(".modal-wrapper");
 let menu = document.getElementById("menu-item");
 let images = document.querySelectorAll(".menu-img");
-let modal_image = document.querySelector(".modal-image");
+let modal_image = document.querySelector(".modal-menu-image");
 
 images.forEach((image)=>{
     image.addEventListener("click", ()=> {

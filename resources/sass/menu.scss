@@ -21,6 +21,9 @@
                 background-size: cover;
                 background-position: center;
                 object-fit: cover;
+                &:hover {
+                    cursor: pointer;
+                }
             }
         }
         & .menu-list {
@@ -37,6 +40,9 @@
                     height: 280px;
                     object-fit: cover; 
                     background-color: pink;
+                    &:hover {
+                        cursor: pointer;
+                    }
                     &.new-icon {
                         position: relative;
 
@@ -77,6 +83,57 @@
                 }
                 
             }
+        }
+    }
+}
+
+// モーダルウィンドウ
+.modal-contents-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 50px;
+
+    & .modal-menu-image {
+        width: 40vh;
+        height: auto;
+        object-fit: cover;
+        aspect-ratio: 3 / 2;
+        opacity: 0;
+        filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
+        &.show {
+            animation-name: fadeIn;
+            animation-duration: 0.3s;
+            animation-fill-mode: forwards;
+            opacity: 1;
+        }
+    }
+
+    & .modal-menu-detail-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-width: 400px;
+        word-break: break-word;
+        margin: 0 2rem;
+        
+        & .menu-name {
+            font-size: 1.2em;
+            margin-bottom: 1em;
+
+            & + p {
+                margin: 1em 0 1em 1em;
+            }
+        }
+
+        & .price-wrapper {
+            border-top: solid 1px #a1a1a1;
+            border-bottom: solid 1px #a1a1a1;
+            padding: 0.5em 0;
         }
     }
 }

@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     {{-- 共通スタイル --}}
-    <link rel="stylesheet" href="{{ mix('css/reset.css') }}">
-    <link rel="stylesheet" href="{{ mix('css/common.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/common.css') }}">
     {{-- 各ページスタイル --}}
     @yield('pageCss')
     {{-- 各ページjs --}}

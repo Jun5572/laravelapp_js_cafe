@@ -21,17 +21,20 @@ const { groupBy } = require('lodash');
 glob.sync('resources/css/*.css', 'public/css').map(function(file) {
     mix.postCss(file, 'public/css').options({
         processCssUrls: false,
-    });
+    })
+    .version();
 });
 glob.sync('resources/js/*.js', 'public/js').map(function(file) {
     mix.js(file, "public/js").autoload({
         "jquery": ['$', 'window.jQuery'],
-    });
+    })
+    .version();
 });
 glob.sync('resources/sass/*.scss').map(function(file) {
     mix.sass(file, "public/css").options({
         processCssUrls: false,
-    });
+    })
+    .version();
 });
 
 // mix.sass("resources/sass/app.scss", "public/css"); //この行を追加

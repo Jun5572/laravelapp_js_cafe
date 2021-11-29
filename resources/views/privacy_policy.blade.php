@@ -2,7 +2,7 @@
 
 
 @section('pageCss')
-    <link rel="stylesheet" href="{{ mix('css/privacy_policy.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/privacy_policy.css') }}">
 @endsection
 
 @section('title', ' | Privacy Policy')

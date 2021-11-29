@@ -1,13 +1,13 @@
 @extends('layouts.base')
 
 @section('pageCss')    
-    <link rel="stylesheet" href="{{ asset('slick/slick.css') }}">
-    <link rel="stylesheet" href="{{ asset('slick/slick-theme.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/menu.css') }}">
+    <link rel="stylesheet" href="{{ mix('slick/slick.css') }}">
+    <link rel="stylesheet" href="{{ mix('slick/slick-theme.css') }}">
+    <link rel="stylesheet" href="{{ mix('css/menu.css') }}">
 @endsection
 
 @section('pageJs')
-    <script src="{{ asset('js/slick.min.js') }}"></script>
+    <script src="{{ mix('js/slick.min.js') }}"></script>
 @endsection
 
 @section('title', ' | Menu')
@@ -37,20 +37,20 @@
     <h2>Seasonal</h2>
     <div class="menu-inner-wrapper">
         <div class="slider-wrapper">
-            <img class="slider-item" src="{{ asset('images/menu-2.jpg') }}" alt="">
-            <img class="slider-item" src="{{ asset('images/shard-g794920a6f_1920.jpg') }}" alt="">
-            <img class="slider-item" src="{{ asset('images/new_menu_cake.jpg') }}" alt="">
+            <img class="slider-item" src="{{ mix('images/menu-2.jpg') }}" alt="">
+            <img class="slider-item" src="{{ mix('images/shard-g794920a6f_1920.jpg') }}" alt="">
+            <img class="slider-item" src="{{ mix('images/new_menu_cake.jpg') }}" alt="">
             <div class="slider-item"></div>
             <div class="slider-item"></div>
         </div>
         <h2 class="page-title">Menu</h2>
         <div id="menu-item" class="menu-list">
             <div class="menu-item">
-                <img class="menu-img new-icon" src="{{ asset('images/menu-1.jpg') }}" alt="">
+                <img class="menu-img new-icon" src="{{ mix('images/menu-1.jpg') }}" alt="">
                 <p>アマトリチャーナ</p>
             </div>
             <div class="menu-item">
-                <img class="menu-img new-icon" src="{{ asset('images/menu-2.jpg') }}" alt="">
+                <img class="menu-img new-icon" src="{{ mix('images/menu-2.jpg') }}" alt="">
                 <p>いろどり野菜のサラダ</p>
             </div>
             <div class="menu-item">
@@ -100,6 +100,6 @@
 @endsection
 
 @section('pageScript')
-    <script src="{{ asset('js/slider.js') }}"></script>
-    <script src="{{ asset('js/menu.js') }}"></script>
+    <script src="{{ mix('js/slider.js') }}"></script>
+    <script src="{{ mix('js/menu.js') }}"></script>
 @endsection

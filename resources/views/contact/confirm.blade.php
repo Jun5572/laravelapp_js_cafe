@@ -1,8 +1,8 @@
 @extends('layouts.base')
 
 @section('pageCss')
-    <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/confirm.css') }}">
+    <link rel="stylesheet" href="{{ mix('css/contact.css') }}">
+    <link rel="stylesheet" href="{{ mix('css/confirm.css') }}">
 @endsection
 
 @section('title', ' | Confirm')

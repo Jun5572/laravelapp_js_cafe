@@ -2,7 +2,7 @@
 
 
 @section('pageCss')
-    <link rel="stylesheet" href="{{ asset('css/top.css') }}">
+    <link rel="stylesheet" href="{{ mix('css/top.css') }}">
 @endsection
 
 @section('title', '')
@@ -32,5 +32,5 @@
 </section>
 
 @section('pageScript')
-    <script src="{{ asset('js/common.js') }}"></script>
+    <script src="{{ mix('js/common.js') }}"></script>
 @endsection

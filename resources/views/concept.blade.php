@@ -2,7 +2,7 @@
 
 
 @section('pageCss')
-    <link rel="stylesheet" href="{{ asset('css/concept.css') }}">
+    <link rel="stylesheet" href="{{ mix('css/concept.css') }}">
 @endsection
 
 @section('title', ' | Concept')
@@ -27,8 +27,8 @@
     </div>
 </section>
 <section class="commitment-container">
-    <img class="commit-img" src="{{ asset('images/pablo-merchan-montes-SCbq6uKCyMY-unsplash.jpg') }}">
-    <img class="commit-img" src="{{ asset('images/luke-porter-ud6XcK_MUGI-unsplash.jpg') }}">
+    <img class="commit-img" src="{{ mix('images/pablo-merchan-montes-SCbq6uKCyMY-unsplash.jpg') }}">
+    <img class="commit-img" src="{{ mix('images/luke-porter-ud6XcK_MUGI-unsplash.jpg') }}">
     <div class="text-container">
         <h3 class="title">Commitment</h3>
         <p>ここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>

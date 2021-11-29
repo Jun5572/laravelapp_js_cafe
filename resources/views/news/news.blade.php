@@ -2,7 +2,7 @@
 
 
 @section('pageCss')
-    <link rel="stylesheet" href="{{ asset('css/news.css') }}">
+    <link rel="stylesheet" href="{{ mix('css/news.css') }}">
 @endsection
 
 @section('title', ' | News')

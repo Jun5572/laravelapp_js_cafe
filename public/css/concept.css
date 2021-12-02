@@ -18,8 +18,7 @@ main section:last-child {
 
 .main-visual-img {
   position: relative;
-  width: 80%;
-  height: 700px;
+  height: 600px;
   margin: auto;
   background-image: url("../images/gor-davtyan-0BIvjaQwvQQ-unsplash.jpg");
   margin-bottom: 300px;
@@ -37,7 +36,6 @@ main section:last-child {
 }
 
 .commitment-container {
-  width: 80%;
   display: flex;
   align-items: center;
   margin: 60px auto;

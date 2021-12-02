@@ -51,12 +51,13 @@ footer {
 footer .footer-menu {
   display: flex;
   justify-content: center;
-  width: 50%;
   margin: 50px auto;
 }
 footer .footer-menu li {
   display: inline-block;
-  padding: 0 5em;
+  min-width: 150px;
+  text-align: center;
+  margin: 0 2em;
   color: #ffffff;
 }
 footer p {
@@ -111,7 +112,7 @@ table tr th {
 }
 
 .w-container {
-  width: 90%;
+  width: min(90%, 1286px);
   margin: auto;
 }
 .w-container.narrow {
@@ -121,7 +122,6 @@ table tr th {
 
 .hero {
   position: relative;
-  width: 100%;
   min-height: 100vh;
   height: 100%;
   margin: auto;
@@ -134,7 +134,7 @@ table tr th {
   right: 0;
   bottom: 0;
   margin: auto;
-  width: 90%;
+  width: min(100%, 1286px);
   height: 80%;
   background-image: url("/images/shard-g794920a6f_1920.jpg");
   background-size: cover;

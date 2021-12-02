@@ -25,13 +25,13 @@
 }
 .main-contents .menu-inner-wrapper .menu-list {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
-  gap: 3vw 1vw;
+  gap: 1vw;
   margin: auto;
 }
 .main-contents .menu-inner-wrapper .menu-list .menu-item {
-  width: 330px;
+  width: 350px;
 }
 .main-contents .menu-inner-wrapper .menu-list .menu-item .menu-img {
   width: 100%;
@@ -75,10 +75,6 @@
   filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.2));
   z-index: 10;
 }
-.main-contents .menu-inner-wrapper .menu-list .menu-item p {
-  margin-top: 1em;
-}
-
 .modal-contents-container {
   position: absolute;
   top: 50%;

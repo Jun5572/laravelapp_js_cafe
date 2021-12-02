@@ -5,6 +5,7 @@
   justify-content: center;
 }
 .main-contents .side-container {
+  min-width: 130px;
   margin-right: 3em;
 }
 .main-contents .side-container h3 {
@@ -62,7 +63,7 @@
   border-bottom: 2px solid #efefef;
 }
 .main-contents .news-container td {
-  width: 75%;
+  width: 65%;
 }
 .main-contents .news-container td a {
   position: relative;

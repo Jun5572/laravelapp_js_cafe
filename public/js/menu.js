@@ -7,6 +7,7 @@ var modal_wrapper = document.querySelector(".modal-wrapper");
 var menu = document.getElementById("menu-item");
 var images = document.querySelectorAll(".menu-img");
 var modal_image = document.querySelector(".modal-menu-image");
+console.log(window.navigator.userAgent);
 images.forEach(function (image) {
   image.addEventListener("click", function () {
     modal_image.src = "";

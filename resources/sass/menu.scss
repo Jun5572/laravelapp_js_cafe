@@ -33,8 +33,14 @@
             gap: 1vw;
             // width: 84%;
             margin: auto;
+
+            // タブレット幅以下はモバイル表示
+            @media screen and (max-width: 768px){
+                grid-template-columns: repeat(2, 1fr);
+            }
+
             & .menu-item {
-                width: 350px;
+                width: 100%;
                 & .menu-img {
                     width: 100%;
                     height: 280px;

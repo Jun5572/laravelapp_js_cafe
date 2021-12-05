@@ -61,6 +61,13 @@ footer .footer-menu {
   justify-content: center;
   margin: 50px auto;
 }
+@media screen and (max-width: 768px) {
+  footer .footer-menu {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+}
 footer .footer-menu li {
   display: inline-block;
   min-width: 150px;
@@ -184,7 +191,7 @@ table tr th {
   align-items: center;
 }
 .hero .hero-container .hero-title h1 {
-  font-size: 8rem;
+  font-size: clamp(24px, 9vw, 120px);
   font-family: "Dancing Script", cursive, sans-serif;
   z-index: 10;
 }

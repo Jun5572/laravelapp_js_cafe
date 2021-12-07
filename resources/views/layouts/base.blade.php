@@ -40,6 +40,7 @@
 </footer>    
 @endif
 
+<script src="{{ asset('js/common.js') }}"></script>
 @yield('pageScript')
 </body>
 </html>

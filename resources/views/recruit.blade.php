@@ -99,3 +99,7 @@
         </div>
     </section>
 @endsection
+
+@section('pageScript')
+    <script src="{{ asset('js/recruit.js') }}"></script>
+@endsection

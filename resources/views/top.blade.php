@@ -32,5 +32,5 @@
 </section>
 
 @section('pageScript')
-    <script src="{{ asset('js/common.js') }}"></script>
+    <script src="{{ asset('js/top.js') }}"></script>
 @endsection

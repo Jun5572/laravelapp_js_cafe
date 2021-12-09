@@ -33,6 +33,12 @@
 body {
   font-size: 15px;
   font-family: "Helvetica Neue", sans-serif;
+  opacity: 0;
+  transition: all 1s;
+}
+body.loaded {
+  opacity: 1;
+  transition: all 1s;
 }
 
 h2 {
@@ -169,6 +175,10 @@ table tr th {
   justify-content: center;
   align-items: center;
   z-index: 10;
+  transition: right 500ms;
+}
+.hero .sns-wrapper.show {
+  right: 100px;
 }
 .hero .sns-wrapper a {
   margin: 8px 0;

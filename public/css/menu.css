@@ -91,6 +91,20 @@
   background-color: #fff;
   padding: 50px;
 }
+@media screen and (max-width: 1024px) {
+  .modal-contents-container {
+    flex-direction: column;
+  }
+}
+.modal-contents-container .modal-close {
+  position: absolute;
+  top: -41px;
+  right: -41px;
+  color: #efefef;
+}
+.modal-contents-container .modal-close:hover {
+  cursor: pointer;
+}
 .modal-contents-container .modal-menu-image {
   width: 40vh;
   height: auto;
@@ -120,6 +134,11 @@
 .modal-contents-container .modal-menu-detail-container .menu-name {
   font-size: 1.2em;
   margin-bottom: 1em;
+}
+@media screen and (max-width: 1024px) {
+  .modal-contents-container .modal-menu-detail-container .menu-name {
+    margin-top: 1em;
+  }
 }
 .modal-contents-container .modal-menu-detail-container .menu-name + p {
   margin: 1em 0 1em 1em;

@@ -97,8 +97,21 @@
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
+    @media screen and ( max-width: 1024px ) {
+        flex-direction: column;
+    }
     background-color: #fff;
     padding: 50px;
+
+    & .modal-close {
+        position: absolute;
+        top: -41px;
+        right: -41px;
+        color: #efefef;
+        &:hover {
+            cursor: pointer;
+        }
+    }
 
     & .modal-menu-image {
         width: 40vh;
@@ -126,6 +139,9 @@
         & .menu-name {
             font-size: 1.2em;
             margin-bottom: 1em;
+            @media screen and ( max-width: 1024px ) {
+                margin-top: 1em;
+            }
 
             & + p {
                 margin: 1em 0 1em 1em;

@@ -21,7 +21,7 @@
     <script src="https://kit.fontawesome.com/d9203d9956.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 </head>
-<body>
+<body id="body">
 <header class="header w-container">
     @include('layouts.header')
 </header>

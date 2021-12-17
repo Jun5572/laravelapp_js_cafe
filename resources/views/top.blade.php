@@ -14,6 +14,7 @@
     {{-- 各ページスタイル --}}
     @yield('pageCss')
     <link rel="stylesheet" href="{{ asset('css/top.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/loader.css') }}">
     {{-- 各ページjs --}}
     @yield('pageJs')
     {{-- 各ページタイトル --}}
@@ -23,49 +24,64 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 </head>
 <body id="body">
-    <div class="loading-wrapper"><!-- ロード中画面を表示するwrapper -->
-        <div class="outer-wrapper"><!-- 全体の表示／非表示をコントロールするwrapper -->
-            <header class="header w-container">
-                <a href="{{ url('/') }}" class="logo">logo</a>
-                <nav>
-                    <ul>
-                        <li><a href="{{ url('/news') }}">NEWS</a></li>
-                        <li><a href="{{ url('/menu') }}">MENU</a></li>
-                        <li><a href="{{ url('/concept') }}">CONCEPT</a></li>
-                    </ul>
-                </nav>
-            </header>
-            
-            <section class="hero">
-                <div class="hero-img">
-                    <div class="sns-wrapper">
-                        <a href="#">
-                            <i class="fab fa-twitter-square fa-3x"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fab fa-instagram fa-3x"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fab fa-line fa-3x"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="hero-container w-container">
-                    <div class="hero-title">
-                        <h1>J's Cafe</h1>
-                    </div>
-                </div>
-            </section>
-                    
-            {{-- <footer>
-                <ul class="footer-menu">
-                    <li><a href="{{ url('/contact') }}">CONTACT</a></li>
-                    <li><a href="{{ url('/recruit') }}">RECRUIT</a></li>
-                    <li><a href="{{ url('/privacy_policy') }}">PRIVACY POLICY</a></li>
-                </ul>
-                <p><i class="far fa-copyright"></i>2021 Jun Takizawa</p>
-            </footer>     --}}
+    <!-- ロード中画面を表示するwrapper -->
+    <div class="loading-wrapper">
+        <div class="loading-wrapper__inner">
+            <div class="sk-cube-grid">
+                <div class="sk-cube sk-cube1"></div>
+                <div class="sk-cube sk-cube2"></div>
+                <div class="sk-cube sk-cube3"></div>
+                <div class="sk-cube sk-cube4"></div>
+                <div class="sk-cube sk-cube5"></div>
+                <div class="sk-cube sk-cube6"></div>
+                <div class="sk-cube sk-cube7"></div>
+                <div class="sk-cube sk-cube8"></div>
+                <div class="sk-cube sk-cube9"></div>
+            </div>
         </div>
+    </div>
+    <!-- 全体の表示／非表示をコントロールするwrapper -->
+    <div class="outer-wrapper">
+        <header class="header w-container">
+            <a href="{{ url('/') }}" class="logo">logo</a>
+            <nav>
+                <ul>
+                    <li><a href="{{ url('/news') }}">NEWS</a></li>
+                    <li><a href="{{ url('/menu') }}">MENU</a></li>
+                    <li><a href="{{ url('/concept') }}">CONCEPT</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="hero">
+            <div class="hero-img">
+                <div class="sns-wrapper">
+                    <a href="#">
+                        <i class="fab fa-twitter-square fa-3x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram fa-3x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-line fa-3x"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-container w-container">
+                <div class="hero-title">
+                    <h1>J's Cafe</h1>
+                </div>
+            </div>
+        </section>
+                
+        {{-- <footer>
+            <ul class="footer-menu">
+                <li><a href="{{ url('/contact') }}">CONTACT</a></li>
+                <li><a href="{{ url('/recruit') }}">RECRUIT</a></li>
+                <li><a href="{{ url('/privacy_policy') }}">PRIVACY POLICY</a></li>
+            </ul>
+            <p><i class="far fa-copyright"></i>2021 Jun Takizawa</p>
+        </footer>     --}}
     </div>
     <script src="{{ asset('js/common.js') }}"></script>
     <script src="{{ asset('js/top.js') }}"></script>

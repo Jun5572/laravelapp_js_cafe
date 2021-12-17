@@ -38,9 +38,18 @@ p {
 }
 
 .loading-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(214, 155, 140);
+    background-color: rgb(75, 64, 29);
+    &__inner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
     &.done {
         background-color: transparent;
         transition: all 500ms;

@@ -19307,6 +19307,19 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
+/***/ "./resources/sass/loader.scss":
+/*!************************************!*\
+  !*** ./resources/sass/loader.scss ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/sass/menu.scss":
 /*!**********************************!*\
   !*** ./resources/sass/menu.scss ***!
@@ -19818,7 +19831,8 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 			"css/privacy_policy": 0,
 /******/ 			"css/news": 0,
 /******/ 			"css/news_detail": 0,
-/******/ 			"css/menu": 0
+/******/ 			"css/menu": 0,
+/******/ 			"css/loader": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -19868,21 +19882,22 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu"], () => (__webpack_require__("./resources/sass/app.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu"], () => (__webpack_require__("./resources/sass/common.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu"], () => (__webpack_require__("./resources/sass/concept.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu"], () => (__webpack_require__("./resources/sass/confirm.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu"], () => (__webpack_require__("./resources/sass/contact.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu"], () => (__webpack_require__("./resources/sass/menu.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu"], () => (__webpack_require__("./resources/sass/news_detail.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu"], () => (__webpack_require__("./resources/sass/news.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu"], () => (__webpack_require__("./resources/sass/privacy_policy.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu"], () => (__webpack_require__("./resources/sass/recruit.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu"], () => (__webpack_require__("./resources/sass/test.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu"], () => (__webpack_require__("./resources/sass/thanks.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu"], () => (__webpack_require__("./resources/sass/top.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu"], () => (__webpack_require__("./resources/css/bkup_app.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/sass/common.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/sass/concept.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/sass/confirm.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/sass/contact.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/sass/loader.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/sass/menu.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/sass/news_detail.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/sass/news.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/sass/privacy_policy.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/sass/recruit.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/sass/test.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/sass/thanks.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/sass/top.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/contact","css/confirm","css/concept","css/common","css/app","css/bkup_app","css/top","css/thanks","css/test","css/recruit","css/privacy_policy","css/news","css/news_detail","css/menu","css/loader"], () => (__webpack_require__("./resources/css/bkup_app.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

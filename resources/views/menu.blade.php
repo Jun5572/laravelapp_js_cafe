@@ -18,6 +18,7 @@
 {{-- モーダルウィンドウ --}}
 <div class="modal-wrapper">
     <div class="modal-contents-container">
+        <i class="fas fa-3x fa-times modal-close"></i>
         <img alt="" class="modal-menu-image" src="">
         <div class="modal-menu-detail-container">
             <div class="wrapper">
@@ -29,7 +30,6 @@
                 <p>※テイクアウトの場合、消費税率が異なります</p>
             </div>
         </div>
-        <i class="fas fa-2x fa-times"></i>
     </div>
 </div>
 {{-- モーダルウィンドウここまで --}}

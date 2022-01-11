@@ -94,12 +94,22 @@
                 <p>メニュー名が入りますメニュー名が入ります</p>
             </div>
         </div>
-        
     </div>
+</section>
+
+<section id="app">
+    <transition>
+        <div v-show="buttonActive" class="to-top-btn" @click="scrollTop">
+            <i class="fas fa-4x fa-chevron-circle-up"></i>
+        </div>
+    </transition>
 </section>
 @endsection
 
+
 @section('pageScript')
-    <script src="{{ asset('js/slider.js') }}"></script>
-    <script src="{{ asset('js/menu.js') }}"></script>
+<script src="{{ asset('js/slider.js') }}"></script>
+<script src="{{ asset('js/menu.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/scrollHandle.js') }}"></script>
 @endsection

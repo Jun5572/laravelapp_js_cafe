@@ -70,8 +70,6 @@
         <div class="btn-wrapper">
             <button class="btn-lg confirm" type="submit" value="confirm" >内容を確認</button>
         </div>
-        <a href="./thanks.html">Thanks</a>
-        <a href="./confirm.html">confirm</a>
     </form>
 </section>
 @endsection

@@ -222,8 +222,8 @@ table tr th {
             justify-content: center;
             align-items: center;
             & h1 {
-                // font-size: clamp(24px, 9vw ,120px);
-                font-size: 120px;
+                font-size: clamp(36px, 4vw ,120px);
+                // font-size: 120px;
                 font-family: 'Dancing Script', cursive, sans-serif;
                 z-index: 10;
                 &::before,
@@ -356,4 +356,24 @@ table {
     }
     
     
+}
+
+#app {
+    
+    & .to-top-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        color: #7a7a7a99;
+    }
+
+    .v-enter-active,
+    .v-leave-active {
+        transition: opacity 300ms ease-out;
+    }
+
+    .v-enter,
+    .v-leave-to {
+        opacity: 0;
+    }
 }

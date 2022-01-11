@@ -145,4 +145,16 @@
             </li>
         </ul>
     </section>
+
+    <section id="app">
+        <transition>
+            <div v-show="buttonActive" class="to-top-btn" @click="scrollTop">
+                <i class="fas fa-4x fa-chevron-circle-up"></i>
+            </div>
+        </transition>
+    </section>
+@endsection
+
+@section('pageScript')
+    <script src="{{ asset('js/scrollHandle.js') }}"></script>
 @endsection

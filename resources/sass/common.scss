@@ -35,6 +35,9 @@ h2 {
 p {
     margin: 0.5rem 0;
     letter-spacing: 0.8px;
+    @media screen and ( max-width: 768px ){
+        letter-spacing: 0;
+    }
 }
 
 .loading-wrapper {
@@ -136,7 +139,9 @@ table tr th {
     & .logo {
         width: 200px;
         height: 100%;
-        background-color: pink;
+        background-image: url("/images/js_cafe_logo.png");
+        background-position: center;
+        background-size: cover;
     }
     & nav {
         & ul {
@@ -253,8 +258,15 @@ table tr th {
 .news-head {
     display: flex;
     align-items: center;
+    @media screen and ( max-width: 768px ){
+        display: block;
+    }
+
     & p {
         margin-right: 1em;
+        @media screen and ( max-width: 768px ){
+        margin-right: 0;
+    }
     }
     
     & span {

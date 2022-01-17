@@ -4,6 +4,11 @@
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 768px) {
+  .main-contents {
+    display: block;
+  }
+}
 .main-contents .side-container {
   min-width: 130px;
   margin-right: 3em;
@@ -48,6 +53,11 @@
 .main-contents .news-container {
   width: 60vw;
   border-top: 2px solid #efefef;
+}
+@media screen and (max-width: 768px) {
+  .main-contents .news-container {
+    width: 100%;
+  }
 }
 .main-contents .news-container table {
   width: 100%;

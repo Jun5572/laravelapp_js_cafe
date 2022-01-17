@@ -46,6 +46,11 @@ p {
   margin: 0.5rem 0;
   letter-spacing: 0.8px;
 }
+@media screen and (max-width: 768px) {
+  p {
+    letter-spacing: 0;
+  }
+}
 
 .loading-wrapper {
   position: fixed;
@@ -141,7 +146,9 @@ table tr th {
 .header .logo {
   width: 200px;
   height: 100%;
-  background-color: pink;
+  background-image: url("/images/js_cafe_logo.png");
+  background-position: center;
+  background-size: cover;
 }
 .header nav ul {
   display: flex;
@@ -249,8 +256,18 @@ table tr th {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 768px) {
+  .news-head {
+    display: block;
+  }
+}
 .news-head p {
   margin-right: 1em;
+}
+@media screen and (max-width: 768px) {
+  .news-head p {
+    margin-right: 0;
+  }
 }
 .news-head span {
   display: inline-block;

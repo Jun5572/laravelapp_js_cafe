@@ -10,6 +10,11 @@
     & .side-container {
         min-width: 130px;
         margin-right: 3em;
+        @media screen and ( max-width: 768px ) {
+            display: flex;
+            justify-content: space-around;
+            margin: 0;
+        }
         & h3 {
             margin-bottom: 1em;
         }

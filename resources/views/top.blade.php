@@ -43,7 +43,7 @@
     <!-- 全体の表示／非表示をコントロールするwrapper -->
     <div class="outer-wrapper">
         <header class="header w-container">
-            <a href="{{ url('/') }}" class="logo">logo</a>
+            <a href="{{ url('/') }}" class="logo"></a>
             <nav>
                 <ul>
                     <li><a href="{{ url('/news') }}">NEWS</a></li>

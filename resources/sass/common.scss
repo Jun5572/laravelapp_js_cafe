@@ -137,10 +137,10 @@ table tr th {
     width: inherit;
     height: 50px;
     & .logo {
-        width: 200px;
-        height: 100%;
+        width: 120px;
+        // height: 100%;
         background-image: url("/images/js_cafe_logo.png");
-        background-position: center;
+        // background-position: center;
         background-size: cover;
     }
     & nav {

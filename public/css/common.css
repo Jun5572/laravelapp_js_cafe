@@ -144,10 +144,8 @@ table tr th {
   height: 50px;
 }
 .header .logo {
-  width: 200px;
-  height: 100%;
+  width: 120px;
   background-image: url("/images/js_cafe_logo.png");
-  background-position: center;
   background-size: cover;
 }
 .header nav ul {

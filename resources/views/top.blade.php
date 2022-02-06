@@ -40,17 +40,23 @@
             </div>
         </div>
     </div>
+    <!-- end ロード中画面を表示するwrapper -->
+    
     <!-- 全体の表示／非表示をコントロールするwrapper -->
     <div class="outer-wrapper">
-        <header class="header w-container">
-            <a href="{{ url('/') }}" class="logo">logo</a>
-            <nav>
-                <ul>
-                    <li><a href="{{ url('/news') }}">NEWS</a></li>
-                    <li><a href="{{ url('/menu') }}">MENU</a></li>
-                    <li><a href="{{ url('/concept') }}">CONCEPT</a></li>
-                </ul>
-            </nav>
+        <header class="header">
+            <div class="header-contents w-container">
+                <a href="{{ url('/') }}" class="site_logo_box">
+                    <img src="{{ asset('images/site_logo.png') }}" alt="siteLogo">
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="{{ url('/news') }}">NEWS</a></li>
+                        <li><a href="{{ url('/menu') }}">MENU</a></li>
+                        <li><a href="{{ url('/concept') }}">CONCEPT</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         
         <section class="hero">

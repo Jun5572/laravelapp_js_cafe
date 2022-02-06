@@ -3,9 +3,18 @@
     margin-bottom: 0;
     display: flex;
     justify-content: center;
+
+    @media screen and ( max-width: 768px ){
+        display: block;
+    }
     & .side-container {
         min-width: 130px;
         margin-right: 3em;
+        @media screen and ( max-width: 768px ) {
+            display: flex;
+            justify-content: space-around;
+            margin: 0;
+        }
         & h3 {
             margin-bottom: 1em;
         }
@@ -50,8 +59,11 @@
 
     & .news-container {
         width: 60vw;
-        // margin: auto;
         border-top: 2px solid #efefef;
+
+        @media screen and ( max-width: 768px ) {
+            width: 100%;
+        }
 
         & table {
             width: 100%;

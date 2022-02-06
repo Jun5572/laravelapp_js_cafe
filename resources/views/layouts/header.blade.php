@@ -1,4 +1,6 @@
-<a href="{{ url('/') }}" class="logo">logo</a>
+<a href="{{ url('/') }}" class="site_logo_box">
+    <img src="{{ asset('images/site_logo.png') }}" alt="siteLogo">
+</a>
 <nav>
     <ul>
         <li><a href="{{ url('/news') }}">NEWS</a></li>

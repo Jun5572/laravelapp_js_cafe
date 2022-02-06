@@ -4,9 +4,21 @@
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 768px) {
+  .main-contents {
+    display: block;
+  }
+}
 .main-contents .side-container {
   min-width: 130px;
   margin-right: 3em;
+}
+@media screen and (max-width: 768px) {
+  .main-contents .side-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+  }
 }
 .main-contents .side-container h3 {
   margin-bottom: 1em;
@@ -48,6 +60,11 @@
 .main-contents .news-container {
   width: 60vw;
   border-top: 2px solid #efefef;
+}
+@media screen and (max-width: 768px) {
+  .main-contents .news-container {
+    width: 100%;
+  }
 }
 .main-contents .news-container table {
   width: 100%;

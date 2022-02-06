@@ -53,7 +53,7 @@
 .contact-form-wrapper .contact-form-table td input[type=text], .contact-form-wrapper .contact-form-table td input[type=email], .contact-form-wrapper .contact-form-table td input[type=tel] {
   outline: none;
   border: none;
-  width: 500px;
+  width: 100%;
   padding: 1em;
   background-color: #f1f1f1;
 }
@@ -65,11 +65,7 @@
   border: none;
   background-color: #f1f1f1;
   resize: none;
-  max-width: 600px;
-  max-height: 500px;
-  min-width: 100px;
-  min-height: 100px;
-  width: 500px;
+  width: 100%;
   padding: 1em;
 }
 .contact-form-wrapper .contact-form-table .td-zip {

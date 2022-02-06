@@ -1,5 +1,5 @@
-<a href="{{ url('/') }}" class="logo">
-    {{-- <img src="{{ asset('images/js_cafe_logo.png') }}" alt="siteLogo"> --}}
+<a href="{{ url('/') }}" class="site_logo_box">
+    <img src="{{ asset('images/site_logo.png') }}" alt="siteLogo">
 </a>
 <nav>
     <ul>

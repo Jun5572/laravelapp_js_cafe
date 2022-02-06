@@ -22,8 +22,10 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 </head>
 <body id="body">
-<header class="header w-container">
-    @include('layouts.header')
+<header class="header">
+    <div class="header-contents w-container">
+        @include('layouts.header')
+    </div>
 </header>
 
 @hasSection ('title')

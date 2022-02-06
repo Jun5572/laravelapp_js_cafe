@@ -41,7 +41,7 @@
             <img class="slider-item" src="{{ asset('images/shard-g794920a6f_1920.jpg') }}" alt="">
             <img class="slider-item" src="{{ asset('images/new_menu_cake.jpg') }}" alt="">
             <div class="slider-item"></div>
-            <div class="slider-item"></div>
+            {{-- <div class="slider-item"></div> --}}
         </div>
         <h2 class="page-title">Menu</h2>
         <div id="menu-item" class="menu-list">
@@ -54,7 +54,7 @@
                 <p>いろどり野菜のサラダ</p>
             </div>
             <div class="menu-item">
-                <div class="menu-img">img3</div>
+                <img class="menu-img new-icon" src="{{ asset('images/menu-3.jpg') }}" alt="">
                 <p>メニュー名が入りますメニュー名が入ります</p>
             </div>
             <div class="menu-item">
@@ -67,30 +67,6 @@
             </div>
             <div class="menu-item">
                 <div class="menu-img">img6</div>
-                <p>メニュー名が入りますメニュー名が入ります</p>
-            </div>
-            <div class="menu-item">
-                <div class="menu-img">img7</div>
-                <p>メニュー名が入りますメニュー名が入ります</p>
-            </div>
-            <div class="menu-item">
-                <div class="menu-img">img8</div>
-                <p>メニュー名が入りますメニュー名が入ります</p>
-            </div>
-            <div class="menu-item">
-                <div class="menu-img">img</div>
-                <p>メニュー名が入りますメニュー名が入ります</p>
-            </div>
-            <div class="menu-item">
-                <div class="menu-img">img</div>
-                <p>メニュー名が入りますメニュー名が入ります</p>
-            </div>
-            <div class="menu-item">
-                <div class="menu-img">img</div>
-                <p>メニュー名が入りますメニュー名が入ります</p>
-            </div>
-            <div class="menu-item">
-                <div class="menu-img">img</div>
                 <p>メニュー名が入りますメニュー名が入ります</p>
             </div>
         </div>

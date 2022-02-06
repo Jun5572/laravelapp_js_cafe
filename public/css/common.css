@@ -137,24 +137,30 @@ table tr th {
   right: 0;
   margin: auto;
   z-index: 100;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.header .header-contents {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: inherit;
-  height: 50px;
+  height: 9vh;
 }
-.header .logo {
-  width: 120px;
-  background-image: url("/images/js_cafe_logo.png");
-  background-size: cover;
+.header .header-contents .site_logo_box {
+  height: 100%;
 }
-.header nav ul {
+.header .header-contents .site_logo_box img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: inherit;
+}
+.header .header-contents nav ul {
   display: flex;
 }
-.header nav ul li {
+.header .header-contents nav ul li {
   margin: 0 1em;
 }
-.header nav ul li a {
+.header .header-contents nav ul li a {
   font-weight: 100;
   font-size: clamp(10px, 2vw, 25px);
   letter-spacing: 0.5px;
@@ -367,7 +373,12 @@ table tr {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  color: #7a7a7a99;
+  color: #eccc9a;
+  transition: all 300ms;
+  opacity: 0.8;
+}
+#app .to-top-btn:hover {
+  transform: scale(1.2);
 }
 #app .v-enter-active,
 #app .v-leave-active {

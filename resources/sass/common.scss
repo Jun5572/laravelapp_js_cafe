@@ -45,7 +45,7 @@ p {
     left: 0;
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(238, 153, 153);
+    background-color: #b45536;
     &__inner {
         position: absolute;
         top: 50%;
@@ -397,7 +397,7 @@ table {
 .scr-target {
     opacity: 0;
     transform: translate3d(0, 30px, 0);
-    
+
     &.is-active {
         opacity: 1;
         transform: translate3d(0, 0, 0);

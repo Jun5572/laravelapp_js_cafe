@@ -42,6 +42,7 @@
 </footer>    
 @endif
 
+<script src="{{ asset('js/appearance.js') }}"></script>
 <script src="{{ asset('js/common.js') }}"></script>
 @yield('pageScript')
 </body>

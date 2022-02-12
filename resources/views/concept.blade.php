@@ -18,8 +18,8 @@
         <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
     </div>
 </section>
-<section class="main-visual-img w-container">
-    <div class="text-container">
+<section class="main-visual-img w-container scr-target">
+    <div class="text-container scr-target">
         <h3 class="title">ABOUT J's Cafe</h3>
         <p>テキストが入りますテキストが入りますテキストが入ります</p>
         <p>テキストが入りますテキストが入りますテキストが入ります</p>
@@ -27,9 +27,9 @@
     </div>
 </section>
 <section class="commitment-container w-container">
-    <img class="commit-img" src="{{ asset('images/pablo-merchan-montes-SCbq6uKCyMY-unsplash.jpg') }}">
-    <img class="commit-img" src="{{ asset('images/luke-porter-ud6XcK_MUGI-unsplash.jpg') }}">
-    <div class="text-container">
+    <img class="commit-img scr-target" src="{{ asset('images/pablo-merchan-montes-SCbq6uKCyMY-unsplash.jpg') }}">
+    <img class="commit-img scr-target" src="{{ asset('images/luke-porter-ud6XcK_MUGI-unsplash.jpg') }}">
+    <div class="text-container scr-target">
         <h3 class="title">Commitment</h3>
         <p>ここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
         <p>ここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>

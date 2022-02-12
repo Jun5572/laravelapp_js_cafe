@@ -45,27 +45,27 @@
         </div>
         <h2 class="page-title">Menu</h2>
         <div id="menu-item" class="menu-list">
-            <div class="menu-item">
+            <div class="menu-item scr-target">
                 <img class="menu-img new-icon" src="{{ asset('images/menu-1.jpg') }}" alt="">
                 <p>アマトリチャーナ</p>
             </div>
-            <div class="menu-item">
+            <div class="menu-item scr-target">
                 <img class="menu-img new-icon" src="{{ asset('images/menu-2.jpg') }}" alt="">
                 <p>いろどり野菜のサラダ</p>
             </div>
-            <div class="menu-item">
+            <div class="menu-item scr-target">
                 <img class="menu-img new-icon" src="{{ asset('images/menu-3.jpg') }}" alt="">
                 <p>メニュー名が入りますメニュー名が入ります</p>
             </div>
-            <div class="menu-item">
+            <div class="menu-item scr-target">
                 <div class="menu-img">img4</div>
                 <p>メニュー名が入りますメニュー名が入ります</p>
             </div>
-            <div class="menu-item">
+            <div class="menu-item scr-target">
                 <div class="menu-img">img5</div>
                 <p>メニュー名が入りますメニュー名が入ります</p>
             </div>
-            <div class="menu-item">
+            <div class="menu-item scr-target">
                 <div class="menu-img">img6</div>
                 <p>メニュー名が入りますメニュー名が入ります</p>
             </div>

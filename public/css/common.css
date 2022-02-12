@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -387,4 +388,15 @@ table tr {
 #app .v-enter,
 #app .v-leave-to {
   opacity: 0;
+}
+
+/* アニメーション設定 */
+.scr-target {
+  opacity: 0;
+  transform: translate3d(0, 30px, 0);
+}
+.scr-target.is-active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 1s;
 }

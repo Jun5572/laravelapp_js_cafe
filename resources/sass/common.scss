@@ -392,3 +392,15 @@ table {
         opacity: 0;
     }
 }
+
+/* アニメーション設定 */
+.scr-target {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+    
+    &.is-active {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        transition: 1s;
+    }
+}

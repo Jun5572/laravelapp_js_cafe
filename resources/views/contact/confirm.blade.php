@@ -59,7 +59,8 @@
             </table>
             <div class="btn-wrapper">
                 <a href="./contact.html">修正する</a>
-                <button class="btn-md submit" type="submit" value="submit" >送信する</button>
+                {{-- <button class="btn-md submit" type="submit" value="submit" >送信する</button> --}}
+                <a href="{{ url('contact/thanks') }}" class="btn-md submit">送信する</a>
             </div>
         </form>
     </section>

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -15,16 +16,6 @@
     <title>J's Cafe</title>
 </head>
 <body>
-    <header class="header w-container">
-        <a href="../top/top.html" class="logo">logo</a>
-        <nav>
-            <ul>
-                <li><a href="../news/news.html">NEWS</a></li>
-                <li><a href="../menu/menu.html">MENU</a></li>
-                <li><a href="../concept/concept.html">CONCEPT</a></li>
-            </ul>
-        </nav>
-    </header>
     <section class="main-contents w-container">
         <div class="inner-wrapper">
             <h2>Thank You!</h2>

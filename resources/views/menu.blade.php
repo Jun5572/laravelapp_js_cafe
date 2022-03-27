@@ -37,37 +37,45 @@
     <h2>Seasonal</h2>
     <div class="menu-inner-wrapper">
         <div class="slider-wrapper">
-            <img class="slider-item" src="{{ asset('images/menu-2.jpg') }}" alt="">
-            <img class="slider-item" src="{{ asset('images/shard-g794920a6f_1920.jpg') }}" alt="">
-            <img class="slider-item" src="{{ asset('images/new_menu_cake.jpg') }}" alt="">
-            <div class="slider-item"></div>
+            <img class="slider-item" src="{{ asset('images/menu/slick_cake.jpg') }}" alt="">
+            <img class="slider-item" src="{{ asset('images/menu/slick_chef.jpg') }}" alt="">
+            <img class="slider-item" src="{{ asset('images/menu/slick_coffee.jpg') }}" alt="">
+            <img class="slider-item" src="{{ asset('images/menu/slick_sandwich.jpg') }}" alt="">
             {{-- <div class="slider-item"></div> --}}
         </div>
         <h2 class="page-title">Menu</h2>
         <div id="menu-item" class="menu-list">
             <div class="menu-item scr-target">
-                <img class="menu-img new-icon" src="{{ asset('images/menu-1.jpg') }}" alt="">
-                <p>アマトリチャーナ</p>
-            </div>
-            <div class="menu-item scr-target">
-                <img class="menu-img new-icon" src="{{ asset('images/menu-2.jpg') }}" alt="">
+                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_salad_1.jpg') }}" alt="">
                 <p>いろどり野菜のサラダ</p>
             </div>
             <div class="menu-item scr-target">
-                <img class="menu-img new-icon" src="{{ asset('images/menu-3.jpg') }}" alt="">
-                <p>メニュー名が入りますメニュー名が入ります</p>
+                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_salad_2.jpg') }}" alt="">
+                <p>シーザーサラダ</p>
             </div>
             <div class="menu-item scr-target">
-                <div class="menu-img">img4</div>
-                <p>メニュー名が入りますメニュー名が入ります</p>
+                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_pasta_1.jpg') }}" alt="">
+                <p>アマトリチャーナ</p>
             </div>
             <div class="menu-item scr-target">
-                <div class="menu-img">img5</div>
-                <p>メニュー名が入りますメニュー名が入ります</p>
+                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_pasta_2.jpg') }}" alt="">
+                <p>なめらかクリームのカルボナーラ</p>
             </div>
             <div class="menu-item scr-target">
-                <div class="menu-img">img6</div>
-                <p>メニュー名が入りますメニュー名が入ります</p>
+                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_pizza_1.jpg') }}" alt="">
+                <p>こだわりモッツァレラチーズのピザ</p>
+            </div>
+            <div class="menu-item scr-target">
+                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_drink_cafe_latte.jpg') }}" alt="">
+                <p>ホットカフェラテ</p>
+            </div>
+            <div class="menu-item scr-target">
+                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_cake_1.jpg') }}" alt="">
+                <p>ショコラケーキ</p>
+            </div>
+            <div class="menu-item scr-target">
+                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_sinamon_roll.jpg') }}" alt="">
+                <p>シナモンロール</p>
             </div>
         </div>
     </div>

@@ -45,7 +45,7 @@ Route::get('/contact', function() {
 });
 
 
-Route::get('/confirm', function() {
+Route::get('contact/confirm', function() {
     return view('contact/confirm');
 });
 

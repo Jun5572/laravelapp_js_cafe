@@ -68,7 +68,8 @@
             </tbody>
         </table>
         <div class="btn-wrapper">
-            <button class="btn-lg confirm" type="submit" value="confirm" >内容を確認</button>
+            {{-- <button class="btn-lg confirm" type="submit" value="confirm" >内容を確認</button> --}}
+            <a class="btn-lg confirm" href="{{ url('contact/confirm') }}">内容を確認</a>
         </div>
     </form>
 </section>

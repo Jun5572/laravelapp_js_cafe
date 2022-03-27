@@ -23,10 +23,10 @@
             <!-- liタグに置き換え -->
             <div class="archives-container">
                 <h3>ARCHIVES</h3>
-                <a href="#">2021年XX月XX日</a>
-                <a href="#">2021年XX月XX日</a>
-                <a href="#">2021年XX月XX日</a>
-                <a href="#">2021年XX月XX日</a>
+                <a href="#">2022年03月27日</a>
+                <a href="#">2022年02月14日</a>
+                <a href="#">2022年01月04日</a>
+                <a href="#">2021年12月25日</a>
             </div>
         </div>
         <div class="news-container">
@@ -34,83 +34,65 @@
                 <tbody>
                     <tr class="news-item">
                         <th class="news-head">
-                            <p>2021年XX月XX日</p>
+                            <p>2021年03月27日</p>
                             <span class="new">新発売</span>
                         </th>
                         <td>
-                            <a class="news-title" href="{{ url('news/show') }}">タイトルが入りますタイトルが入ります</a>
+                            <a class="news-title" href="{{ url('news/show') }}">新発売!!シナモンロール！</a>
                         </td>
                     </tr>
                     <tr class="news-item">
                         <th class="news-head">
-                            <p>2021年XX月XX日</p>
+                            <p>2022年02月14日</p>
                             <span class="sns">SNS</span>
                         </th>
                         <td>
-                            <a class="news-title" href="news_detail.html">タイトルが入りますタイトルが入ります</a>
+                            <a class="news-title" href="news_detail.html">バレンタインデーのランチお待ちしております！</a>
                         </td>
                     </tr>
                     <tr class="news-item">
                         <th class="news-head">
-                            <p>2021年XX月XX日</p>
-                            <span class="service">サービス</span>
-                        </th>
-                        <td>
-                            <a class="news-title" href="news_detail.html">タイトルが入りますタイトルが入ります</a>
-                        </td>
-                    </tr>
-                    <tr class="news-item">
-                        <th class="news-head">
-                            <p>2021年XX月XX日</p>
+                            <p>2022年02月05日</p>
                             <span>サービス</span>
                         </th>
                         <td>
-                            <a class="news-title" href="news_detail.html">タイトルが入りますタイトルが入ります</a>
+                            <a class="news-title" href="news_detail.html">コロナウイルス感染予防対策に関するご協力のお願い</a>
                         </td>
                     </tr>
                     <tr class="news-item">
                         <th class="news-head">
-                            <p>2021年XX月XX日</p>
+                            <p>2022年02月24日</p>
                             <span>SNS</span>
                         </th>
                         <td>
-                            <a class="news-title" href="news_detail.html">タイトルが入りますタイトルが入ります</a>
+                            <a class="news-title" href="news_detail.html">本日のケーキ　残りあとわずかです！</a>
                         </td>
                     </tr>
                     <tr class="news-item">
                         <th class="news-head">
-                            <p>2021年XX月XX日</p>
+                            <p>2022年02月17日</p>
                             <span>SNS</span>
                         </th>
                         <td>
-                            <a class="news-title" href="news_detail.html">タイトルが入りますタイトルが入ります</a>
+                            <a class="news-title" href="news_detail.html">今日のおすすめパスタは？</a>
                         </td>
                     </tr>
                     <tr class="news-item">
                         <th class="news-head">
-                            <p>2021年XX月XX日</p>
+                            <p>2022年01月04日</p>
                             <span>SNS</span>
                         </th>
                         <td>
-                            <a class="news-title" href="news_detail.html">タイトルが入りますタイトルが入ります</a>
+                            <a class="news-title" href="news_detail.html">あけましておめでとうございます！</a>
                         </td>
                     </tr>
                     <tr class="news-item">
                         <th class="news-head">
-                            <p>2021年XX月XX日</p>
+                            <p>2021年12月25日</p>
                             <span>SNS</span>
                         </th>
                         <td>
-                            <a class="news-title" href="news_detail.html">タイトルが入りますタイトルが入ります</a>
-                        </td>
-                    </tr>
-                    <tr class="news-item">
-                        <th class="news-head">
-                            <p>2021年XX月XX日</p>
-                            <span>SNS</span>
-                        </th>
-                        <td>
-                            <a class="news-title" href="news_detail.html">タイトルが入りますタイトルが入ります</a>
+                            <a class="news-title" href="news_detail.html">メリークリスマス！素敵な時間をお過ごしください</a>
                         </td>
                     </tr>
                 </tbody>
@@ -123,10 +105,10 @@
                 <a href="#"><span><i class="fas fa-arrow-left"></i></span></a>
             </li>
             <li>
-                <a href="#"><span>1</span></a>
+                <a href="#" class="current-page" ><span>1</span></a>
             </li>
             <li>
-                <a class="current-page" href="#"><span>2</span></a>
+                <a href="#"><span>2</span></a>
             </li>
             <li>
                 <a href="#"><span>3</span></a>

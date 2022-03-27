@@ -1,6 +1,6 @@
 ## 概要
 - 架空のカフェを想定したHPを制作いたしました。　
-![トップページ](public/images/top_readme.png)
+![トップページ](public/images/appendix/top_readme.png)
 ## 技術スタック
 - HTML
 - CSS(Scss)

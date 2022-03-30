@@ -1,9 +1,6 @@
 window.addEventListener("load", function () {
     const target = document.querySelectorAll(".scr-target");
-    console.log(target);
     const targetArray = Array.prototype.slice.call(target);
-    // const targetArray = Array.slice.call(target);
-    console.log(targetArray);
     const options = {
         root: null,
         rootMargin: "0px 0px",

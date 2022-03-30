@@ -5,7 +5,6 @@ let modal_image = document.querySelector(".modal-menu-image");
 let windowAvailWidth = window.screen.availWidth;
 let ipadSidewaysWidth = 768;
 
-console.log(menus);
 
 // スクロールバーを除く画面幅が768pxより大きかった場合はモーダル機能付与
 if (windowAvailWidth > ipadSidewaysWidth) {

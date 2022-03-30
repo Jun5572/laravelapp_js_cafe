@@ -22,11 +22,11 @@
         <img alt="" class="modal-menu-image" src="">
         <div class="modal-menu-detail-container">
             <div class="wrapper">
-                <h3 class="menu-name">メニュー名が入ります</h3>
-                <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                <h3 class="menu-name" data-js="modalMenuName">メニュー名が入ります</h3>
+                <p data-js="modalMenuDesc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
             </div>
             <div class="price-wrapper">
-                <p class="price">¥xxx（税込¥xxx）</p>
+                <p class="price">¥<span data-js="modalMenuPrice"></span>（税込¥<span data-js="modalMenuTaxInPrice"></span>）</p>
                 <p>※テイクアウトの場合、消費税率が異なります</p>
             </div>
         </div>
@@ -45,36 +45,42 @@
         </div>
         <h2 class="page-title">Menu</h2>
         <div id="menu-item" class="menu-list">
+            {{-- @for ($i = 0; $i < count($menus); $i++)
             <div class="menu-item scr-target">
-                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_salad_1.jpg') }}" alt="">
+                <img class="menu-img new-icon" src="{{ $menus[$i]['img'] }}" alt="">
+                <p>{{$menus[$i]['name']}}</p>
+            </div>
+            @endfor --}}
+            <div class="menu-item scr-target">
+                <img data-id=1 class="menu-img new-icon" src="{{ asset('images/menu/menu_salad_1.jpg') }}" alt="">
                 <p>いろどり野菜のサラダ</p>
             </div>
             <div class="menu-item scr-target">
-                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_salad_2.jpg') }}" alt="">
+                <img data-id=2 class="menu-img new-icon" src="{{ asset('images/menu/menu_salad_2.jpg') }}" alt="">
                 <p>シーザーサラダ</p>
             </div>
             <div class="menu-item scr-target">
-                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_pasta_1.jpg') }}" alt="">
+                <img data-id=3 class="menu-img new-icon" src="{{ asset('images/menu/menu_pasta_1.jpg') }}" alt="">
                 <p>アマトリチャーナ</p>
             </div>
             <div class="menu-item scr-target">
-                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_pasta_2.jpg') }}" alt="">
+                <img data-id=4 class="menu-img new-icon" src="{{ asset('images/menu/menu_pasta_2.jpg') }}" alt="">
                 <p>なめらかクリームのカルボナーラ</p>
             </div>
             <div class="menu-item scr-target">
-                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_pizza_1.jpg') }}" alt="">
+                <img data-id=5 class="menu-img new-icon" src="{{ asset('images/menu/menu_pizza_1.jpg') }}" alt="">
                 <p>こだわりモッツァレラチーズのピザ</p>
             </div>
             <div class="menu-item scr-target">
-                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_drink_cafe_latte.jpg') }}" alt="">
+                <img data-id=6 class="menu-img new-icon" src="{{ asset('images/menu/menu_drink_cafe_latte.jpg') }}" alt="">
                 <p>ホットカフェラテ</p>
             </div>
             <div class="menu-item scr-target">
-                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_cake_1.jpg') }}" alt="">
+                <img data-id=7 class="menu-img new-icon" src="{{ asset('images/menu/menu_cake_1.jpg') }}" alt="">
                 <p>ショコラケーキ</p>
             </div>
             <div class="menu-item scr-target">
-                <img class="menu-img new-icon" src="{{ asset('images/menu/menu_sinamon_roll.jpg') }}" alt="">
+                <img data-id=8 class="menu-img new-icon" src="{{ asset('images/menu/menu_sinamon_roll.jpg') }}" alt="">
                 <p>シナモンロール</p>
             </div>
         </div>

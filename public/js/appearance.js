@@ -5,10 +5,7 @@ var __webpack_exports__ = {};
   \************************************/
 window.addEventListener("load", function () {
   var target = document.querySelectorAll(".scr-target");
-  console.log(target);
-  var targetArray = Array.prototype.slice.call(target); // const targetArray = Array.slice.call(target);
-
-  console.log(targetArray);
+  var targetArray = Array.prototype.slice.call(target);
   var options = {
     root: null,
     rootMargin: "0px 0px",

@@ -41,16 +41,9 @@
             <img class="slider-item" src="{{ asset('images/menu/slick_chef.jpg') }}" alt="">
             <img class="slider-item" src="{{ asset('images/menu/slick_coffee.jpg') }}" alt="">
             <img class="slider-item" src="{{ asset('images/menu/slick_sandwich.jpg') }}" alt="">
-            {{-- <div class="slider-item"></div> --}}
         </div>
         <h2 class="page-title">Menu</h2>
         <div id="menu-item" class="menu-list">
-            {{-- @for ($i = 0; $i < count($menus); $i++)
-            <div class="menu-item scr-target">
-                <img class="menu-img new-icon" src="{{ $menus[$i]['img'] }}" alt="">
-                <p>{{$menus[$i]['name']}}</p>
-            </div>
-            @endfor --}}
             <div class="menu-item scr-target">
                 <img data-id=1 class="menu-img new-icon" src="{{ asset('images/menu/menu_salad_1.jpg') }}" alt="">
                 <p>いろどり野菜のサラダ</p>

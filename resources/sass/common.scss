@@ -246,11 +246,11 @@ table tr th {
     margin-bottom: 200px;
 
     & .head-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 80%;
         margin: 0 auto 80px;
-        & p {
-            text-align: center;
-        }
     }
 }
 
@@ -403,4 +403,9 @@ table {
         transform: translate3d(0, 0, 0);
         transition: 1s;
     }
+}
+
+// 要素の中央寄せ用クラス
+.centering {
+   margin: 0 auto; 
 }

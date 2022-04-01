@@ -79,15 +79,11 @@ if (windowAvailWidth > ipadSidewaysWidth) {
             let image_id = image.getAttribute("data-id");
             for (let i = 0; i < menuData.length; i++) {
                 if (image_id == menuData[i].id) {
-                    let menu_name = menuData[i].name;
-                    let menu_desc = menuData[i].desc;
-                    let menu_price = menuData[i].price;
-
-                    modal_menu_name.innerText = menu_name;
-                    modal_menu_desc.innerText = menu_desc;
-                    modal_menu_price.innerText = menu_price;
+                    modal_menu_name.innerText = menuData[i].name;
+                    modal_menu_desc.innerText = menuData[i].desc;
+                    modal_menu_price.innerText = menuData[i].price;
                     modal_menu_tax_in_price.innerText = Math.floor(
-                        calcTaxInPrice(menu_price)
+                        calcTaxInPrice(menuData[i].price)
                     );
                 } else {
                     continue;

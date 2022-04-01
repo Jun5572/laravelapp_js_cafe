@@ -11,13 +11,15 @@
 @section('content')
     <section class="main-contents w-container narrow">
         <div class="head-text-container">
-            <h2>People</h2>
-            <p>テキストが入りますテキストが入りますテキストが入ります</p>
-            <p>テキストが入りますテキストが入りますテキストが入ります</p>
-            <p>テキストが入りますテキストが入りますテキストが入ります</p>
+            <h2>People -求める人材-</h2>
+            <div class="centering align-left">
+                <p>・長期間働ける方大歓迎です!!</p>
+                <p>・明るく笑顔でのコミュニケーションが取れる方</p>
+                <p>・リーダー経験をしてみたい方</p>
+            </div>
         </div>
         <div class="description-container">
-            <h2>Job Description</h2>
+            <h2>Job Description -募集要項-</h2>
             <table class="desc-table proper">
                 <tbody>
                     <tr>
@@ -26,11 +28,11 @@
                     </tr>
                     <tr>
                         <th>仕事内容</th>
-                        <td>テキスト</td>
+                        <td>接客およびレジ対応</td>
                     </tr>
                     <tr>
                         <th>勤務地</th>
-                        <td>都内数カ所あり</td>
+                        <td>都内店舗数カ所あり。　※希望考慮します</td>
                     </tr>
                     <tr>
                         <th>勤務時間</th>
@@ -42,12 +44,11 @@
                     </tr>
                     <tr>
                         <th>諸手当</th>
-                        <td>残業手当</td>
-                        <td>交通費：全額支給</td>
+                        <td>交通費支給</td>
                     </tr>
                     <tr>
                         <th>待遇</th>
-                        <td>テキスト</td>
+                        <td>バースデー休暇</td>
                     </tr>
                     <tr>
                         <th>休日休暇</th>
@@ -55,39 +56,40 @@
                     </tr>
                 </tbody>
             </table>
+            <hr>
             <table class="desc-table parttime">
                 <tbody>
                     <tr>
                         <th>募集職種</th>
-                        <td>テキスト</td>
+                        <td>ホールスタッフ</td>
                     </tr>
                     <tr>
                         <th>仕事内容</th>
-                        <td>テキスト</td>
+                        <td>接客およびレジ対応</td>
                     </tr>
                     <tr>
                         <th>勤務地</th>
-                        <td>テキスト</td>
+                        <td>都内店舗数カ所あり。　※希望考慮します</td>
                     </tr>
                     <tr>
                         <th>勤務時間</th>
-                        <td>テキスト</td>
+                        <td>シフト勤務</td>
                     </tr>
                     <tr>
                         <th>給与</th>
-                        <td>テキスト</td>
+                        <td>時給 1000円〜</td>
                     </tr>
                     <tr>
                         <th>諸手当</th>
-                        <td>テキスト</td>
+                        <td>交通費支給</td>
                     </tr>
                     <tr>
                         <th>待遇</th>
-                        <td>テキスト</td>
+                        <td>バースデー休暇</td>
                     </tr>
                     <tr>
                         <th>休日休暇</th>
-                        <td>テキスト</td>
+                        <td>年末年始・忌引休暇・テスト期間休暇</td>
                     </tr>
                 </tbody>
             </table>

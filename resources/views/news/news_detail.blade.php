@@ -23,7 +23,7 @@
                 <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
             </div>
             <div class="img-text-container">
-                <img class="img-container" src="{{ asset('images/new_menu_cake.jpg') }}">
+                <img class="img-container" src="{{ asset('images/news/news_barista.jpg') }}">
                 <div class="text-container">
                     <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
                 </div>

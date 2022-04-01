@@ -250,11 +250,11 @@ table tr th {
   margin-bottom: 200px;
 }
 .main-contents .head-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 80%;
   margin: 0 auto 80px;
-}
-.main-contents .head-text-container p {
-  text-align: center;
 }
 
 .news-head {
@@ -399,4 +399,8 @@ table tr {
   opacity: 1;
   transform: translate3d(0, 0, 0);
   transition: 1s;
+}
+
+.centering {
+  margin: 0 auto;
 }

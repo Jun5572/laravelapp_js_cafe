@@ -23,8 +23,8 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 </head>
 <body id="body">
-    <div class="loading-wrapper"><!-- ロード中画面を表示するwrapper -->
-        <div class="outer-wrapper"><!-- 全体の表示／非表示をコントロールするwrapper -->
+    <div class="loading-wrapper">   <!-- ロード中画面を表示するwrapper -->
+        <div class="outer-wrapper"> <!-- 全体の表示／非表示をコントロールするwrapper -->
             <header class="header w-container">
                 <a href="{{ url('/') }}" class="logo">logo</a>
                 <nav>
@@ -65,8 +65,8 @@
                 </ul>
                 <p><i class="far fa-copyright"></i>2021 Jun Takizawa</p>
             </footer>    
-        </div>
-    </div>
+        </div>  <!-- end .outer-wrapper -->
+    </div>  <!-- end .loading-wrapper -->
     <script src="{{ asset('js/common.js') }}"></script>
     <script src="{{ asset('js/top.js') }}"></script>
 </body>
